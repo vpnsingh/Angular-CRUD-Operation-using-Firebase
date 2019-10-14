@@ -73,6 +73,10 @@ export class StudentComponent implements OnInit {
   logout() {
     this.authService.doLogout()
     .then((res) => {
+      console.log("Changes done");
+      if(res.statuscode === 200){
+         console.log("Done loging");
+      }
       this.location.back();
     }, (error) => {
       console.log('Logout error', error);
