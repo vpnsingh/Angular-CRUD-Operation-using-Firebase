@@ -1,4 +1,6 @@
-# Myapp
+# Angular-CRUD-Operation-using-Firebase
+
+## Add your firebase configuration to environment.ts file for connectivity with firebase.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
